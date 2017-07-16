@@ -10,11 +10,21 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalvatorePreviti/mega-boiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SalvatorePreviti/mega-boiler/issues"
+  },
+  "homepage": "https://github.com/SalvatorePreviti/mega-boiler#readme",
   "devDependencies": {
     "@types/chalk": "^0.4.31",
+    "@types/collections": "^5.0.0",
     "@types/jest": "^20.0.2",
     "@types/node": "^8.0.13",
     "chalk": "^2.0.1",
+    "collections": "^5.0.6",
     "eslint": "^4.2.0",
     "eslint-plugin-jest": "^20.0.3",
     "eslint-plugin-node": "^5.1.0",
@@ -30,5 +40,6 @@
       "/node_modules/"
     ],
     "transform": {}
-  }
+  },
+  "dependencies": {}
 }
