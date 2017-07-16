@@ -1,1 +1,1 @@
-require('./tic-tac-toe-winner');
+console.log('hello world');
