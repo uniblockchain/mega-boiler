@@ -7,14 +7,15 @@
     "allowUnreachableCode": false,
     "allowJs": true,
     "alwaysStrict": false,
-    "checkJs": true,
+    "checkJs": false,
     "newLine": "LF",
-    "sourceMap": true
+    "sourceMap": true,
+    "pretty": true
   },
   "exclude": [
     "node_modules"
   ],
   "include": [
-    "**/*"
+    "**/*.ts"
   ]
 }

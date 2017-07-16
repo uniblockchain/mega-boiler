@@ -3,5 +3,12 @@
 /* eslint-disable */
 
 "use strict";
+const fs = require('fs');
 
-require('./src/index.js');
+if (fs.existsSync('./src/index.ts')) {
+  require('source-map-support').install();
+  require('ts-node').register({});
+  require('./src/index.ts');
+} else {
+  require('./src/index.js');
+}
