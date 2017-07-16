@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
     "noEmit": true,
     "allowUnreachableCode": false,
     "allowJs": true,

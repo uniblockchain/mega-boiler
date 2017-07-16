@@ -1,5 +1,6 @@
 {
   "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
   "files.insertFinalNewline": true,
   "files.eol": "\n",
   "editor.insertSpaces": true,
