@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+*.log
+*.cache
+.eslintcache
+/coverage
+dist
+/.package.json
+package-lock.json
+.nyc_output
+/babel.sublime-workspace

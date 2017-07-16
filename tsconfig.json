@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "noEmit": true,
+    "allowUnreachableCode": false,
+    "allowJs": true,
+    "alwaysStrict": false,
+    "checkJs": true,
+    "newLine": "LF",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*"
+  ]
+}

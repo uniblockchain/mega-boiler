@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "noEmit": true,
+    "allowUnreachableCode": false,
+    "alwaysStrict": false,
+    "checkJs": true,
+    "newLine": "LF",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "**/*"
+  ]
+}
