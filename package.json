@@ -23,7 +23,7 @@
   "devDependencies": {
     "@types/chalk": "^0.4.31",
     "@types/collections": "^5.0.0",
-    "@types/jest": "^20.0.2",
+    "@types/jest": "^20.0.4",
     "@types/node": "^8.0.13",
     "chalk": "^2.0.1",
     "collections": "^5.0.6",
