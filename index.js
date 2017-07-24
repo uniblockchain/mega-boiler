@@ -17,4 +17,6 @@ if (fs.existsSync('./src/index.ts')) {
   require('./src/index.js');
 } else if (fs.existsSync('./src/main.js')) {
   require('./src/main.js');
+} else {
+  console.error('\nNothing to do. Write your src/index.js, src/index.ts, src/main.js or src/main.ts and try again.\n')
 }
